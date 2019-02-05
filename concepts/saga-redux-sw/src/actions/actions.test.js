@@ -1,6 +1,6 @@
-import { call, put } from 'redux-saga/effects'
+import { call, put, fork, take, cancel } from 'redux-saga/effects'
 import * as TYPES from '../types/TYPES'
-import { fetchPerson, api } from '../actions'
+import { fetchPerson, api, forkedFetchPerson } from '../actions'
 
 describe('fetchPerson', () => {
     const personGen = fetchPerson()
@@ -16,3 +16,4 @@ describe('fetchPerson', () => {
         expect(personGen.next(person).value).toEqual(put({type: TYPES.FETCH_STAR_WARS_SUCCESS, data: person.results}))
     })
 })
+

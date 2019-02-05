@@ -1,4 +1,4 @@
-import { call, put, actionChannel, take } from 'redux-saga/effects'
+import { call, put, actionChannel, take, fork, cancel } from 'redux-saga/effects'
 import * as TYPES from '../types/TYPES'
 
 export const api = (url) => fetch(url).then(response => response.json())
@@ -75,4 +75,10 @@ export function* takeOneAtMost() {
         console.log('takeOneAtMost ... API call completed')
         yield put({type: TYPES.QUEUE_CHANNEL_SUCCESS, data: i})
     }
+}
+
+export function* forkedFetchPerson() {
+    const syncPersons = yield fork(fetchPerson)
+    yield take('STOP_BACKGROUND_FETCH')
+    yield cancel(syncPersons)
 }
