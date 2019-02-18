@@ -1,14 +1,11 @@
 {
-  "name": "saga-redux-counter",
+  "name": "smooth-perfomant-transitions",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.8.1",
-    "react-dom": "^16.8.1",
-    "react-redux": "^6.0.0",
-    "react-saga": "^0.2.6",
-    "react-scripts": "2.1.3",
-    "redux": "^4.0.1"
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-scripts": "2.1.5"
   },
   "scripts": {
     "start": "react-scripts start",
