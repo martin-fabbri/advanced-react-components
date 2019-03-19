@@ -1,25 +1,42 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { CSSTransition } from "react-transition-group";
+import cx from "classnames";
+import "./App.css";
 
 class App extends Component {
+  state = {
+    showBalloon: false
+  };
+
+  toggle = () => {
+    this.setState({
+      showBalloon: !this.state.showBalloon
+    });
+  };
+
   render() {
+    const { showBalloon } = this.state;
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className="container">
+        <button
+          className={cx("toggler", {
+            "toggler--active": this.state.showBalloon
+          })}
+          onClick={this.toggle}
+        >
+          Menu
+        </button>
+
+        <CSSTransition in={showBalloon} timeout={350} classNames="balloon" unmountOnExit>
+          <div className="menu">
+            <ul className="list">
+              <li className="list-item">Home</li>
+              <li className="list-item">Profile</li>
+              <li className="list-item">Favorites</li>
+              <li className="list-item">Sign out</li>
+            </ul>
+          </div>
+        </CSSTransition>
       </div>
     );
   }
