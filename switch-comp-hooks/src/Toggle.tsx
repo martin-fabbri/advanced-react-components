@@ -1,82 +1,69 @@
-import React, { Component } from 'react'
+import React, { useContext, useState, useEffect, useMemo } from 'react'
 import Switch from './Switch'
 
 interface IContext {
-  on: boolean;
-  toggle: () => void;
+  on: boolean
+  toggle: () => void
 }
 
-interface IState extends IContext {
-}
+interface IState extends IContext {}
 
-type ChildrenFunc = (context: IContext) => IContext;
+type ChildrenFunc = (context: IContext) => IContext
 
 interface IProps {
-  on?: boolean;
-  onToggle: () => void;
-  children: React.ReactNode[];
+  on?: boolean
+  onToggle: () => void
+  children: React.ReactNode[]
 }
 
-const noop = () => {};
+const noop = () => {}
 
 const ToggleContext = React.createContext<IContext>({
   on: false,
   toggle: noop,
-});
+})
 
 type childrenProps = {
-  children: string;
+  children: string
 }
 
-class Toggle extends Component<IProps, IState> {
-  constructor(props: IProps) {
-    super(props);
-    this.state = {
-      on: props.on || false,
-      toggle: this.toggle,
-    }
+function useToggleContext() {
+  const context = useContext(ToggleContext)
+  if (!context) {
+    throw new Error(
+      'Toggle compound components cannot render outside the Toggle Context.'
+    )
   }
-
-  static On = (children: childrenProps) => (
-    <ToggleContext.Consumer>
-      {context => {
-        const { on } = context;
-        return on ? children.children : null;
-      }}
-    </ToggleContext.Consumer>
-  );
-
-  static Off = (children: childrenProps) => (
-    <ToggleContext.Consumer>
-      {context => {
-        const { on } = context;
-        return on ? null : children.children;
-      }}
-    </ToggleContext.Consumer>
-  );
-
-  static Button = () => (
-    <ToggleContext.Consumer>
-      {context => {
-        return <Switch on={context.on} onClick={context.toggle}/>
-      }}
-    </ToggleContext.Consumer>
-  );
-
-  private toggle = () => {
-    this.setState({
-      ...this.state,
-      on: !this.state.on,
-    })
-  }
-
-  render() {
-    return (
-      <ToggleContext.Provider value={this.state}>
-        {this.props.children}
-      </ToggleContext.Provider>
-    );
-  }
+  return context
 }
 
-export default Toggle;
+function Toggle(props: IProps) {
+  const [on, setOn] = useState<boolean>(props.on || false)
+  const toggle = () => setOn(!on)
+  useEffect(() => {
+    props.onToggle()
+  }, [on])
+  const value = useMemo(() => ({on,toggle}), [on]);
+  return (
+    <ToggleContext.Provider value={value}>
+      {props.children}
+    </ToggleContext.Provider>
+  )
+}
+
+Toggle.On = (children: childrenProps) => {
+  const { on } = useToggleContext()
+  return on ? <p>{children.children}</p> : null
+}
+
+Toggle.Off = (children: childrenProps) => {
+  const { on } = useToggleContext()
+  return on ? null : <p>{children.children}</p>
+}
+
+Toggle.Button = () => {
+  const { on, toggle } = useToggleContext()
+  return <Switch on={on} onClick={toggle} />
+}
+
+export default Toggle
