@@ -1,25 +1,34 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect, useRef, Dispatch, SetStateAction } from 'react'
 import NewTodo from './NewTodo'
 import TodoItem from './TodoItem'
 import { Container, List } from './Styled'
 import About from './About'
-import Checkbox from './Checkbox'
 
 interface ITodo {
-  id: string;
+  id: number;
   text: string;
   completed: boolean;
 }
 
 interface IProps {
+}
 
+function useLocalStorage<T>(key: string, defaultValue?: T, callback?: ()=>void): [T, Dispatch<T>] {
+  const valueFromStorage = window.localStorage.getItem(key);
+  const initialValue = valueFromStorage ? JSON.parse(valueFromStorage) : defaultValue;
+  const [value, setValue] = useState<T>(initialValue);
+  const setItem = (newValue: T) => {
+    setValue(newValue)
+    window.localStorage.setItem(key, JSON.stringify(newValue));
+  }
+  return [value, setItem]
 }
 
 export default function TodoList(props: IProps) {
-  const initialTodos = () => JSON.parse(window.localStorage.getItem('todos') || '[]')
-  const [todos, setTodos] = useState<ITodo[]>(initialTodos);
+  const todoId = useRef<number>(0);
+  const [todos, setTodos] = useLocalStorage<ITodo[]>('todos', []);
   const [showAbout, setShowAbout] = useState<boolean>(false);
-  const [newTodo, setNewTodo] = useState<string>('');
+  const [newTodo, setNewTodo] = useState<string>('')
 
   useEffect(() => {
     const handleKey = ({ key }: KeyboardEvent) => {
@@ -31,16 +40,13 @@ export default function TodoList(props: IProps) {
   }, []);
 
   useEffect(() => {
-    window.localStorage.setItem('todos', JSON.stringify(todos))
-  }, [todos])
-
-  useEffect(() => {
+    setTodos(todos);
     const inCompleteTodos = todos.reduce(
-      (memo, todo) => (!todo.completed ? memo + 1 : memo),
+      (memo: number, todo: ITodo) => (!todo.completed ? memo + 1 : memo),
       0
     )
     document.title = inCompleteTodos ? `Todos (${inCompleteTodos})` : 'Todos'
-  })
+  }, [todos])
 
   const handleNewChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setNewTodo(e.target.value)
@@ -48,18 +54,19 @@ export default function TodoList(props: IProps) {
 
   const handleNewSubmit = (e: React.ChangeEvent<HTMLInputElement>) => {
     e.preventDefault()
+    todoId.current += 1;
     setTodos([
         ...todos,
-        { id: Date.now().toString(), text: newTodo, completed: false },
+        { id: todoId.current, text: newTodo, completed: false },
       ])
     setNewTodo('')
   }
 
-  const handleDelete = (id: string) => {
+  const handleDelete = (id: number) => {
     setTodos(todos.filter((todo: ITodo) => todo.id !== id))
   }
 
-  const handleCompletedToggle = (id: string) => {
+  const handleCompletedToggle = (id: number) => {
     setTodos(todos.map((todo: ITodo) => todo.id === id ? { ...todo, completed: !todo.completed } : todo))
   }
 

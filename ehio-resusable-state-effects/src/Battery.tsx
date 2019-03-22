@@ -8,7 +8,7 @@ declare var navigator: NavigatorExt
 
 interface IProps {}
 
-interface IState {
+interface IBatteryState {
   level: number
   charging: boolean
 }
@@ -20,20 +20,14 @@ interface IBattery {
   removeEventListener(event: string, handler: any): void
 }
 
-export default function Battery(props: IProps) {
+const useBattery = () => {
   const battery = useRef<IBattery>()
-  const [state, setState] = useState({ level: 0, charging: false })
+  const [state, setState] = useState<IBatteryState>({
+    level: 0,
+    charging: false,
+  })
 
-  const handleChange = ({ level, charging }: IBattery) => {
-    setState({ level, charging })
-  }
-
-  const removeListeners = () => {
-    if (battery.current) {
-      battery.current.removeEventListener('levelchange', handleChange)
-      battery.current.removeEventListener('chargingchange', handleChange)
-    }
-  }
+  const handleChange = ({ level, charging }: IBattery) => setState({ level, charging })
 
   useEffect(() => {
     navigator.getBattery().then(bat => {
@@ -43,13 +37,24 @@ export default function Battery(props: IProps) {
         battery.current.addEventListener('chargingchange', handleChange)
         handleChange(battery.current)
       }
-      return removeListeners
     })
+    return () => {
+      if (battery.current) {
+        battery.current.removeEventListener('levelchange', handleChange)
+        battery.current.removeEventListener('chargingchange', handleChange)
+      }
+    }
   }, [])
+
+  return state
+}
+
+export default function Battery(props: IProps) {
+  const batteryState = useBattery()
 
   return (
     <section>
-      <BatteryIndicator {...state} />
+      <BatteryIndicator {...batteryState} />
     </section>
   )
 }
