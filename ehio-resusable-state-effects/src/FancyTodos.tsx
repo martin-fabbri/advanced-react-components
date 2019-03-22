@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, Dispatch, SetStateAction } from 'react'
+import React, { useState, useEffect, useRef, useCallback, Dispatch } from 'react'
 import NewTodo from './NewTodo'
 import TodoItem from './TodoItem'
 import { Container, List } from './Styled'
@@ -62,13 +62,13 @@ export default function TodoList(props: IProps) {
     setNewTodo('')
   }
 
-  const handleDelete = (id: number) => {
+  const handleDelete = useCallback((id: number) => {
     setTodos(todos.filter((todo: ITodo) => todo.id !== id))
-  }
+  }, [])
 
-  const handleCompletedToggle = (id: number) => {
+  const handleCompletedToggle = useCallback((id: number) => {
     setTodos(todos.map((todo: ITodo) => todo.id === id ? { ...todo, completed: !todo.completed } : todo))
-  }
+  }, [])
 
   return (
     <Container todos={todos}>

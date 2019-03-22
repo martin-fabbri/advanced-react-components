@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {memo} from 'react'
 import styled from '@emotion/styled'
 import Checkbox from './Checkbox'
 
@@ -31,9 +31,10 @@ interface IProps {
   onDelete: any;
 }
 
-export default function TodoItem({ todo, onChange, onDelete }: IProps) {
+export default memo(function TodoItem({ todo, onChange, onDelete }: IProps) {
   // @ts-ignore
   const t = this as any;
+  console.log('TodoItem', todo.id)
   return (
     <Item key={todo.id}>
       <Checkbox
@@ -45,4 +46,5 @@ export default function TodoItem({ todo, onChange, onDelete }: IProps) {
       <Button onClick={onDelete.bind(t, todo.id)}>x</Button>
     </Item>
   )
-}
+})
+// }, (prevProps: IProps, nextProps: IProps) => prevProps.todo === nextProps.todo)
