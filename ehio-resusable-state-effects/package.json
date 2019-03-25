@@ -10,6 +10,7 @@
     "@types/node": "11.11.4",
     "@types/react": "16.8.8",
     "@types/react-dom": "16.8.3",
+    "element-resize-event": "^3.0.3",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8",
@@ -31,6 +32,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@types/element-resize-event": "^2.0.0",
     "prettier": "1.16.4"
   }
 }
