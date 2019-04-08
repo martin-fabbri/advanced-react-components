@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="00a7d3e8-2b10-476d-b572-d50394b89028" name="Default" comment="UseRef applied to InputElements.">
+      <change beforePath="$PROJECT_DIR$/ehio-resusable-state-effects/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ehio-resusable-state-effects/yarn.lock" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/src/SetFocus.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="713">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/src/FancyTodos.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/node_modules/@types/react/index.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17365">
+              <caret line="780" column="9" selection-start-line="780" selection-start-column="9" selection-end-line="780" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/node_modules/typescript/lib/lib.dom.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383893">
+              <caret line="16704" column="13" selection-start-line="16704" selection-start-column="13" selection-end-line="16704" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/src/BatteryIndicator.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/src/Battery.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/src/App.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/src/SetFocus.class.tsx">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/src/index.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>useState</find>
+      <find>fetch</find>
+      <find>uui</find>
+      <find>balloon</find>
+      <find>void</find>
+      <find>children</find>
+      <find>handleNewSubmit</find>
+      <find>handleKey</find>
+      <find>handleChange</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/concepts/saga-redux-sw/src</dir>
+      <dir>$PROJECT_DIR$/concepts/sagas-chat/src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/concepts/sagas-chat/src/containers/Sidebar.js" />
+        <option value="$PROJECT_DIR$/concepts/sagas-chat/src/app/App.js" />
+        <option value="$PROJECT_DIR$/concepts/sagas-chat/src/reducers/messages.js" />
+        <option value="$PROJECT_DIR$/concepts/sagas-chat/src/actions/index.js" />
+        <option value="$PROJECT_DIR$/concepts/sagas-chat/src/components/AddMessage.js" />
+        <option value="$PROJECT_DIR$/concepts/sagas-chat/src/containers/AddMessage.js" />
+        <option value="$PROJECT_DIR$/concepts/sagas-chat/src/reducers/users.js" />
+        <option value="$PROJECT_DIR$/concepts/sagas-chat/src/index.js" />
+        <option value="$PROJECT_DIR$/concepts/sagas-chat/src/utils/name.js" />
+        <option value="$PROJECT_DIR$/concepts/sagas-chat/src/types/index.js" />
+        <option value="$PROJECT_DIR$/concepts/sagas-chat/src/store/index.js" />
+        <option value="$PROJECT_DIR$/concepts/sagas-chat/src/sagas/index.js" />
+        <option value="$PROJECT_DIR$/concepts/sagas-chat/server/server.js" />
+        <option value="$PROJECT_DIR$/concepts/sagas-chat/src/sockets/index.js" />
+        <option value="$PROJECT_DIR$/concepts/saga-redux-counter/src/app/index.js" />
+        <option value="$PROJECT_DIR$/concepts/saga-redux-counter/src/index.js" />
+        <option value="$PROJECT_DIR$/ui/smooth-perfomant-transitions/src/index.js" />
+        <option value="$PROJECT_DIR$/ui/smooth-perfomant-transitions/src/App.js" />
+        <option value="$PROJECT_DIR$/ui/smooth-perfomant-transitions/src/App.css" />
+        <option value="$PROJECT_DIR$/switch-comp-hooks/src/Switch.tsx" />
+        <option value="$PROJECT_DIR$/switch-comp-hooks/src/FancyToggle.tsx" />
+        <option value="$PROJECT_DIR$/switch-comp-hooks/src/App.tsx" />
+        <option value="$PROJECT_DIR$/switch-comp-hooks/src/Toggle.tsx" />
+        <option value="$PROJECT_DIR$/github-list-hooks/src/index.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.js" />
+        <option value="$PROJECT_DIR$/github-list-hooks/src/App.js" />
+        <option value="$PROJECT_DIR$/todo-hooks/src/index.tsx" />
+        <option value="$PROJECT_DIR$/todo-hooks/.prettierrc" />
+        <option value="$PROJECT_DIR$/todo-hooks/src/Todo.tsx" />
+        <option value="$PROJECT_DIR$/todo-hooks/src/App.tsx" />
+        <option value="$PROJECT_DIR$/todo-hooks/src/TodosList.tsx" />
+        <option value="$PROJECT_DIR$/todo-hooks/src/TodosContext.tsx" />
+        <option value="$PROJECT_DIR$/todo-hooks/src/TodoItem.tsx" />
+        <option value="$PROJECT_DIR$/switch-comp-hooks/src/interfaces.ts" />
+        <option value="$PROJECT_DIR$/todo-hooks/src/AppReducer.tsx" />
+        <option value="$PROJECT_DIR$/todo-hooks/src/Todos.tsx" />
+        <option value="$PROJECT_DIR$/ehio-resusable-state-effects/.prettierrc" />
+        <option value="$PROJECT_DIR$/ehio-resusable-state-effects/src/SimpleUseState.tsx" />
+        <option value="$PROJECT_DIR$/ehio-resusable-state-effects/src/index.css" />
+        <option value="$PROJECT_DIR$/ehio-resusable-state-effects/src/index.tsx" />
+        <option value="$PROJECT_DIR$/ehio-resusable-state-effects/src/SimpleUseState.class.tsx" />
+        <option value="$PROJECT_DIR$/ehio-resusable-state-effects/src/BatteryIndicator.tsx" />
+        <option value="$PROJECT_DIR$/ehio-resusable-state-effects/src/Checkbox.tsx" />
+        <option value="$PROJECT_DIR$/ehio-resusable-state-effects/src/TodoItem.tsx" />
+        <option value="$PROJECT_DIR$/ehio-resusable-state-effects/src/Styled.tsx" />
+        <option value="$PROJECT_DIR$/ehio-resusable-state-effects/src/NewTodo.tsx" />
+        <option value="$PROJECT_DIR$/ehio-resusable-state-effects/src/About.tsx" />
+        <option value="$PROJECT_DIR$/ehio-resusable-state-effects/src/SetFocus.tsx" />
+        <option value="$PROJECT_DIR$/ehio-resusable-state-effects/src/Battery.tsx" />
+        <option value="$PROJECT_DIR$/ehio-resusable-state-effects/src/App.tsx" />
+        <option value="$PROJECT_DIR$/ehio-resusable-state-effects/src/FancyTodos.tsx" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1080" />
+    <option name="height" value="697" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="advanced-react-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="advanced-react-components" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript 1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ehio-resusable-state-effects/src" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/concepts/saga-redux-sw/node_modules/react-scripts" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/ehio-resusable-state-effects/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/concepts/saga-redux-counter/src" />
+      <recent name="$PROJECT_DIR$/concepts/saga-redux-counter/src/app" />
+      <recent name="$PROJECT_DIR$/concepts/sagas-chat/src/app" />
+      <recent name="$PROJECT_DIR$/concepts/saga-redux-sw/src/sagas" />
+      <recent name="$PROJECT_DIR$/concepts/saga-redux-sw/src/components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ehio-resusable-state-effects/src" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/github-list-hooks/src" />
+      <recent name="$PROJECT_DIR$/switch-comp-hooks/src" />
+      <recent name="$PROJECT_DIR$/concepts/sagas-chat/src/containers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.server.js">
+    <configuration name="server.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/concepts/sagas-chat/server">
+      <method v="2" />
+    </configuration>
+    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/ehio-resusable-state-effects/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (3)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/ui/smooth-perfomant-transitions/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (4)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/switch-comp-hooks/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (5)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/github-list-hooks/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/todo-hooks/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start (1)" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start (5)" />
+        <item itemvalue="npm.start (4)" />
+        <item itemvalue="npm.start (3)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00a7d3e8-2b10-476d-b572-d50394b89028" name="Default" comment="" />
+      <created>1528243644503</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528243644503</updated>
+      <workItem from="1528243647237" duration="114000" />
+      <workItem from="1540848118373" duration="3072000" />
+      <workItem from="1540855633157" duration="2922000" />
+      <workItem from="1542058676084" duration="1380000" />
+      <workItem from="1542132422131" duration="382000" />
+      <workItem from="1549315785923" duration="12000" />
+      <workItem from="1549315815588" duration="570000" />
+      <workItem from="1549316459044" duration="13349000" />
+      <workItem from="1549389751538" duration="8589000" />
+      <workItem from="1549405436329" duration="735000" />
+      <workItem from="1549409978844" duration="2154000" />
+      <workItem from="1549412240265" duration="31455000" />
+      <workItem from="1549577594603" duration="276000" />
+      <workItem from="1549578477122" duration="3430000" />
+      <workItem from="1550528866396" duration="3499000" />
+      <workItem from="1550538442231" duration="1270000" />
+      <workItem from="1553020808277" duration="2262000" />
+      <workItem from="1553027138590" duration="3241000" />
+      <workItem from="1553034949922" duration="12814000" />
+      <workItem from="1553101928309" duration="10800000" />
+      <workItem from="1553125900407" duration="21423000" />
+      <workItem from="1553204011167" duration="1691000" />
+      <workItem from="1553209214792" duration="1515000" />
+      <workItem from="1553282031541" duration="1044000" />
+      <workItem from="1553544241568" duration="421000" />
+    </task>
+    <task id="LOCAL-00001" summary="Advanced React Components - Initial commit.">
+      <created>1528243723241</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528243723241</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Advanced React Components - Initial commit.">
+      <created>1542132517819</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542132517819</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Sagas Testing.">
+      <created>1549403563955</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1549403563955</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Sagas Testing.">
+      <created>1549409992660</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549409992660</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Redux-Sagas + WebSockets Chat.">
+      <created>1549579006258</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1549579006258</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Redux-Sagas Counter.">
+      <created>1549579847918</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1549579847918</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Smooth, performant transitions using React Transitions Groups">
+      <created>1550529194704</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1550529194704</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Switch button.">
+      <created>1553037473931</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1553037473931</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Github list -&gt; class &amp; hooks.">
+      <created>1553094623051</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1553094623051</updated>
+    </task>
+    <task id="LOCAL-00010" summary="TodoApp hooks.">
+      <created>1553121300143</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1553121300143</updated>
+    </task>
+    <task id="LOCAL-00011" summary="ehio reusable state and effects with React hooks.">
+      <created>1553121630408</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1553121630408</updated>
+    </task>
+    <task id="LOCAL-00012" summary="UseRef applied to InputElements.">
+      <created>1553191649079</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1553191649079</updated>
+    </task>
+    <task id="LOCAL-00013" summary="UseRef applied to InputElements.">
+      <created>1553282065632</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1553282065632</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="forcedFetchPerson - 2019.02.05 at 14h 05m 21s.xml">
+      <configuration name="forcedFetchPerson" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="forcedFetchPerson - 2019.02.05 at 14h 05m 55s.xml">
+      <configuration name="forcedFetchPerson" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="forcedFetchPerson - 2019.02.05 at 14h 08m 58s.xml">
+      <configuration name="forcedFetchPerson" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="forcedFetchPerson_waits_for_stop_action_and_then_cancels_the_service - 2019.02.05 at 14h 09m 31s.xml">
+      <configuration name="forcedFetchPerson.waits for stop action and then cancels the service" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="fetchPerson - 2019.02.05 at 14h 12m 54s.xml">
+      <configuration name="fetchPerson" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="fetchPerson - 2019.02.05 at 14h 14m 18s.xml">
+      <configuration name="fetchPerson" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="fetchPerson - 2019.02.05 at 14h 14m 39s.xml">
+      <configuration name="fetchPerson" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="fetchPerson - 2019.02.05 at 14h 15m 30s.xml">
+      <configuration name="fetchPerson" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="forcedFetchPerson - 2019.02.05 at 14h 25m 20s.xml">
+      <configuration name="forcedFetchPerson" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="forcedFetchPerson - 2019.02.05 at 14h 26m 11s.xml">
+      <configuration name="forcedFetchPerson" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="128420000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1080" height="1115" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6360947" visible="true" weight="0.31067044" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" sideWeight="0.3639053" side_tool="true" visible="true" weight="0.31067044" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.24165708" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22669736" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.22878876" />
+      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.26006904" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004721" side_tool="true" visible="true" weight="0.3286991" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.24617997" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.64457834" visible="true" weight="0.2065131" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" sideWeight="0.3554217" side_tool="true" visible="true" weight="0.2065131" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.24165708" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15449916" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.22899885" />
+      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.26006904" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.24617997" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Advanced React Components - Initial commit." />
+    <MESSAGE value="Sagas Testing." />
+    <MESSAGE value="Redux-Sagas + WebSockets Chat." />
+    <MESSAGE value="Redux-Sagas Counter." />
+    <MESSAGE value="Smooth, performant transitions using React Transitions Groups" />
+    <MESSAGE value="Switch button." />
+    <MESSAGE value="Github list -&gt; class &amp; hooks." />
+    <MESSAGE value="TodoApp hooks." />
+    <MESSAGE value="ehio reusable state and effects with React hooks." />
+    <MESSAGE value="UseRef applied to InputElements." />
+    <option name="LAST_COMMIT_MESSAGE" value="UseRef applied to InputElements." />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/concepts/sagas-chat/src/sockets/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concepts/saga-redux-counter/src/serviceWorker.js" />
+    <entry file="file://$PROJECT_DIR$/concepts/saga-redux-counter/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/smooth-perfomant-transitions/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/smooth-perfomant-transitions/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/smooth-perfomant-transitions/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/smooth-perfomant-transitions/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="94" column="35" lean-forward="true" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/switch-comp-hooks/src/Switch.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/switch-comp-hooks/src/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/switch-comp-hooks/node_modules/@types/react/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1271">
+          <caret line="289" column="12" lean-forward="true" selection-start-line="289" selection-start-column="12" selection-end-line="289" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/switch-comp-hooks/src/Toggle.class.tsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/switch-comp-hooks/src/Switch.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/github-list-hooks/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/github-list-hooks/src/App.class.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo-hooks/src/App.css" />
+    <entry file="file://$PROJECT_DIR$/github-list-hooks/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo-hooks/src/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo-hooks/.prettierrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/switch-comp-hooks/src/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/switch-comp-hooks/src/Toggle.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo-hooks/src/TodosContext.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo-hooks/src/TodosList.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/src/react-app-env.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo-hooks/src/AppReducer.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="104" selection-start-line="18" selection-start-column="104" selection-end-line="18" selection-end-column="104" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo-hooks/src/TodoItem.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="104" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="104" />
+          <folding>
+            <element signature="e#0#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/switch-comp-hooks/src/interfaces.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo-hooks/src/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo-hooks/src/Todos.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/.prettierrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/src/SimpleUseState.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="77" column="19" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/src/SimpleUseState.class.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/src/Battery.class.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/src/Checkbox.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/src/Styled.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/src/TodoItem.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="41" column="32" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="41" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/src/NewTodo.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="65" column="15" lean-forward="true" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="4570" column="4" selection-start-line="4570" selection-start-column="4" selection-end-line="4570" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/src/About.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#78#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/src/SetFocus.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/node_modules/@types/react/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17365">
+          <caret line="780" column="9" selection-start-line="780" selection-start-column="9" selection-end-line="780" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/node_modules/typescript/lib/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383893">
+          <caret line="16704" column="13" selection-start-line="16704" selection-start-column="13" selection-end-line="16704" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/src/BatteryIndicator.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/src/Battery.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/src/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/src/SetFocus.class.tsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/src/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehio-resusable-state-effects/src/FancyTodos.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
