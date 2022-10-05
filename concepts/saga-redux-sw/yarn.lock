@@ -8192,6 +8192,11 @@ recursive-readdir@2.2.2:
   dependencies:
     minimatch "3.0.4"
 
+redux-saga-testing@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/redux-saga-testing/-/redux-saga-testing-1.0.5.tgz#17c49b2de99fcf653dcf91fc1fd383cc99c5a0e2"
+  integrity sha512-qA4Xf8Wo865zkhnnTxZwO1PtxresvljUWj2erkEn1DF0ppk8LtSlF9gvZw/dRxbzYzkqN9r7HYzy9KMURV3PKw==
+
 redux-saga@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/redux-saga/-/redux-saga-1.0.1.tgz#5f5c6803882bc5c7c8dd558562e8392ef15e3ffe"
