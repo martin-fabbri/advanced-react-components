@@ -13,7 +13,7 @@
     "element-resize-event": "^3.0.3",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8",
+    "react-scripts": "5.0.1",
     "typescript": "3.3.4000"
   },
   "scripts": {
